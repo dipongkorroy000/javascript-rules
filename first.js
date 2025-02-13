@@ -229,3 +229,56 @@
 //2. let pen = new Object();
 //3. let pen = Object.create();
 
+// type-19--->
+// let friends = ['jadu','madu','kadu','raju','saju'];
+// for(let friend of friends){
+//     console.log(friend);
+// }
+
+//alternative--
+// for(let s = 0;s < friends.length;s++){
+//     console.log(friends[s]);
+// }
+
+//alternative--
+// let s = 0;
+// while(s < friends.length){
+//     console.log(friends[s]);
+//     s++;
+// }
+
+// type-20--reverse items--->
+// let numbers = [20,22,24,26,34,46,54];
+// console.log(n.reverse());
+
+//alternative--
+// let div = [];
+// for(let s of numbers){
+//    div.unshift(s);
+// }
+// console.log(div);
+
+//alternative--
+// let div = [];
+// for(s = 0;s < numbers.length;s++){
+//     div.unshift(numbers[s]);
+// }
+// console.log(div);
+
+//alternative-double step-
+// let div = [];
+// for(let i = numbers.length -1;i >= 0;i--){
+//     console.log(numbers[i]);
+//     div.push(numbers[i])
+// }
+// console.log(div);
+
+// type-21--->
+// sort-ascending-ASCII-Binary Character Table- following---
+// not working-10,11,12.....--ABC....
+
+// let rollNum = [4,3,5,1,7,6,8,9]; 
+// console.log(rollNum.sort());
+
+// let friends = ['dal','apple','eat','banana','cat'];
+// console.log(friends.sort());
