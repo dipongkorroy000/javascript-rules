@@ -48,24 +48,23 @@
 // }
 // alternative ---
 // let students = 1;
-// while(students <= 10){
-//     console.log(students);
-//     students++;
+// while (students <= 10) {
+//   console.log(students);
+//   students++;
 // }
 
 //do-while --->
 // let s = 5;
-// do{
-//     console.log(s);
-//     s++;
-// }
-// while(s < 5);
+// do {
+//   console.log(s);
+//   s++;
+// } while (s < 5);
 
 //type-8-string-vs-array--->
-// let fullName = 'rahimrana';
+// let fullName = "rahimrana";
 // console.log(fullName.length);
 // console.log(fullName[3]);
-// fullName[3] = 'y' // not change because string is immutable--
+// fullName[3] = "y"; // not change because string is immutable--
 // console.log(fullName);
 
 // let flowerName = ['golap','joba','sondha maloti'];
@@ -102,15 +101,15 @@
 // console.log(flowerName.join()); // result--string out---
 
 // let students = ['rahim','karim','jadu','madu','sajjat'];
-// console.log(students.join('|')); 
+// console.log(students.join('|'));
 // console.log(students.join('-'));
 
 // type-13--string join- concat()--->
-// let first = 'hero';
-// let last = 'alom';
-// console.log(first + ' ' + last);
+// let first = "hero";
+// let last = "alom";
+// console.log(first + " " + last);
 // // alternative --
-// console.log(first.concat(' ').concat(last));
+// console.log(first.concat(" ").concat(last));
 
 // type-14-string reverse--->
 // let demoName = 'I am learning Web Dev.';
@@ -134,11 +133,11 @@
 
 // type-15--objects-1--->
 // let person = {
-//     fullName: 'mahabub alom',
-//     age: 25,
-//     married: false,
-//     'fav places': ['ramsagor','kuakata','bandorban','jaflaong']
-// }
+//   fullName: "mahabub alom",
+//   age: 25,
+//   married: false,
+//   "fav places": ["ramsagor", "kuakata", "bandorban", "jaflaong"],
+// };
 
 // all key/property showing---
 // console.log(Object.keys(person));
@@ -167,17 +166,17 @@
 
 // type-16-object-2--->
 // let college = {
-//     fullName: 'ADC',
-//     class: ['11','12'],
-//     events: ['science fair','bijoy dibos','21 feb'],
-//     students: {
-//         class11: 512,
-//         class12: {
-//             gpa: 60,
-//             merit: 'top'
-//         }
-//     }
-// }
+//   fullName: "ADC",
+//   class: ["11", "12"],
+//   events: ["science fair", "bijoy dibos", "21 feb"],
+//   students: {
+//     class11: 512,
+//     class12: {
+//       gpa: 60,
+//       merit: "top",
+//     },
+//   },
+// };
 
 //finding key/property value---
 // console.log(college.students.class11);
@@ -195,81 +194,81 @@
 
 // type-17-object-3--->
 // let mobile = {
-//     brand: 'samsung',
-//     price: 25000,
-//     color: 'white',
-//     camera: '12mp'
-// }
+//   brand: "samsung",
+//   price: 25000,
+//   color: "white",
+//   camera: "12mp",
+// };
 
 // all key & value showing step by step---
-// for(let s in mobile){
-//     console.log(s);
-//     console.log(mobile[s]);
-// } 
+// for (let s in mobile) {
+//   console.log(s);
+//   console.log(mobile[s]);
+// }
 
 // all key & value showing one by one---
-// for(let s in mobile){
-//     console.log(s,mobile[s]);
+// for (let s in mobile) {
+//   console.log(s, mobile[s]);
 // }
 // //or object literal--
-// for(let s in mobile){
-//     console.log(s,':',mobile[s]);
+// for (let s in mobile) {
+//   console.log(s, ":", mobile[s]);
 // }
 
 // key showing array---
 // console.log(Object.keys(mobile));
 
 // alternative key showing loop---
-// for(let d in mobile){
-//     console.log(d);
+// for (let d in mobile) {
+//   console.log(d);
 // }
 
 // type-18-object create method--->
-//1. let pen = {};
-//2. let pen = new Object();
-//3. let pen = Object.create();
+// 1. let pen = {};
+// 2. let pen = new Object();
+// 3. let pen = Object.create();
 
 // type-19--->
-// let friends = ['jadu','madu','kadu','raju','saju'];
-// for(let friend of friends){
-//     console.log(friend);
+// let friends = ["jadu", "madu", "kadu", "raju", "saju"];
+// for (let friend of friends) {
+//   console.log(friend);
 // }
 
 //alternative--
-// for(let s = 0;s < friends.length;s++){
-//     console.log(friends[s]);
+// for (let s = 0; s < friends.length; s++) {
+//   console.log(friends[s]);
 // }
 
 //alternative--
 // let s = 0;
-// while(s < friends.length){
-//     console.log(friends[s]);
-//     s++;
+// while (s < friends.length) {
+//   console.log(friends[s]);
+//   s++;
 // }
 
 // type-20--reverse items--->
-// let numbers = [20,22,24,26,34,46,54];
+// let numbers = [20, 22, 24, 26, 34, 46, 54];
 // console.log(n.reverse());
 
 //alternative--
 // let div = [];
-// for(let s of numbers){
-//    div.unshift(s);
+// for (let s of numbers) {
+//   div.unshift(s);
 // }
 // console.log(div);
 
 //alternative--
 // let div = [];
-// for(s = 0;s < numbers.length;s++){
-//     div.unshift(numbers[s]);
+// for (s = 0; s < numbers.length; s++) {
+//   div.unshift(numbers[s]);
 // }
 // console.log(div);
 
 //alternative-double step-
 // let div = [];
-// for(let i = numbers.length -1;i >= 0;i--){
-//     console.log(numbers[i]);
-//     div.push(numbers[i])
+// for (let i = numbers.length - 1; i >= 0; i--) {
+//   console.log(numbers[i]);
+//   div.push(numbers[i]);
 // }
 // console.log(div);
 
@@ -277,8 +276,10 @@
 // sort-ascending-ASCII-Binary Character Table- following---
 // not working-10,11,12.....--ABC....
 
-// let rollNum = [4,3,5,1,7,6,8,9]; 
+// let rollNum = [4, 3, 5, 1, 7, 6, 8, 9];
 // console.log(rollNum.sort());
 
-// let friends = ['dal','apple','eat','banana','cat'];
+// let friends = ["dal", "apple", "eat", "banana", "cat"];
 // console.log(friends.sort());
+
+//type-22--
