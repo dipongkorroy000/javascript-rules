@@ -152,7 +152,7 @@
 //update/change value---
 // person.fullName = 'jankar mahabub vai'; // or--
 // person['age'] = 28;
-// person['fav places'] = ['suksagor','coxbazar'];
+// person['fav places'] = ['sundorbon','coxbazar'];
 // console.log(person);
 
 //finding name-variable system---
