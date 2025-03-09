@@ -40,11 +40,17 @@
 // numbers.pop() // remove the num last---
 // console.log(numbers.includes(52)); //finding number---
 // console.log(numbers.indexOf(52)); // finding index number to 52---
+
 // let first = 'name';
 // console.log(isNaN(first)); // test the string attribute type---
+
+// let first = 'name';
 // let isMarried = false;
 // if (typeof isMarried === 'boolean') {
 //     console.log('type this boolean'); // test the boolean type--
+// }
+// else if(typeof first === 'string') {
+//  console.log('this is string')
 // }
 
 // type-7-loop--->
