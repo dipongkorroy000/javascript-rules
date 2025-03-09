@@ -42,6 +42,10 @@
 // console.log(numbers.indexOf(52)); // finding index number to 52---
 // let first = 'name';
 // console.log(isNaN(first)); // test the string attribute type---
+// let isMarried = false;
+// if (typeof isMarried === 'boolean') {
+//     console.log('type this boolean'); // test the boolean type--
+// }
 
 // type-7-loop--->
 // let students = ['rahim','karim','jadu','madu','sajjat'];
