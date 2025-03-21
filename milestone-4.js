@@ -97,9 +97,10 @@
 // let liquid = 'water '
 // console.log(drink.trim() == liquid.trim()); // trim just side space out ---
 
-// type-10-string part need-slice(),--->
+// type-10-string part need-slice(), or splice()--->
 // let fullName = 'dipongkorroy';
 // console.log(fullName.slice(0,3)); // result- dip---
+// console.log(fullName.splice(0,2)); // result -> dip---
 
 // type-11-string-&-array-- split()---->
 // let schoolName = 'North IDEAL Academy';
